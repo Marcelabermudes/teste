@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th>Mês 1</th>
+            <th>Mês 2</th>
+        </tr>
+        <tr>
+            <td>R$ 1,97</td>
+            <td>R$ 2,02</td>
+
+        </tr>
+    </table>
+    <br>
+
+    <table border="1">
+        <tr>
+            <th>Nome</th>
+            <th>idade</th>
+            <th>Sexo</th>
+            <th>Profissão</th>
+            <th>Cor</th>
+        </tr>
+        <tr>
+            <td>Marcea</td>
+            <td>36</td>
+            <td>F</td>
+            <td>ACE</td>
+            <td>preta</td>
+        </tr>
+        <tr>
+            <td>Joana</td>
+            <td>28</td>
+            <td>F</td>
+            <td>recepcionista</td>
+            <td>branca</td>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>24</td>
+            <td>M</td>
+            <td>motorista</td>
+            <td>preta</td>
+        </tr>
+    </table>
+    <br>
+    <style>
+        table,td{
+            border: 1px, solid, black;
+            border-collapse: collapse;
+        }
+    </style>
+    <table>
+        <tr>
+            <td colspan="2">Nome Completo</td>
+            <td>Idade</td>
+        </tr>
+        <tr>
+            <td>Marcela</td>
+            <td>Marcia</td>
+            <td>36</td>
+        </tr>
+        <tr>
+            <td>Rosana</td>
+            <td>Alves</td>
+            <td>27</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <td>Nome</td>
+            <td>Maria</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Telefones</td>
+            <td>27 99854-5258</td>
+        </tr>
+        <tr>
+            <td>27 95656-4141</td>
+        </tr>
+    </table>
+    <br>
+    <!--
+    *action
+    *method get (aparece na url os dados) e post (não aparece na url)
+    *name
+    *botão submit
+    precisa dessas informações para enviar para o banco de dados
+    -->
+    <form action="teste.php" method="post">
+        <fieldset disabled>
+            <legend>Cadastro de cliente</legend>
+        <label for="Nome">Nome:</label>
+        <input type="text" name="txtname" id="nome">
+        <label for="Sobrenome">Sobrenome:</label>
+        <input type="text" name="txtsobrenome" id="sobrenome">
+        <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+</body>
+</html>
