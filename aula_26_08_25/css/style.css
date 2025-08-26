@@ -1,0 +1,65 @@
+*{
+    padding: 20;
+}
+
+body{
+    background-color: pink;
+}
+
+p{
+    color: red;
+}
+/*seletor de tag por agrupamento*/
+h1, h2, h3{
+    color: blueviolet;
+}
+
+/*seletor de classe*/
+.center{
+    text-align: center;
+}
+
+.verde{
+    color: green;
+}
+
+/*seletor de classe tag*/
+p.azul{
+    color: blue;
+}
+
+/*seletores de evento ou pseudoclasses*/
+
+h1:hover{
+    background-color: yellow;
+}
+
+
+/*Link não visitado*/
+a:link{
+    color: aqua;
+}
+
+/*Link visitao*/
+a:visited{
+    color: blueviolet;
+}
+
+/*Quando passa o mouse em cima do link*/
+a:hover{
+    color: brown;
+}
+
+/*Seletores combinados ou descendentes*/
+div p{
+    background-color: yellow;
+}
+
+div > p{
+    background-color: rgb(41, 211, 25);
+}
+
+/*Seletor id*/
+#capitulo1{
+    color: greenyellow;
+}
