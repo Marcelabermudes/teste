@@ -1,0 +1,20 @@
+
+/*Se você definir box-sizing: border-box;um elemento, o preenchimento e a borda serão incluídos na largura e na altura:*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+/*font-family altera a fonte
+ line-height Defina a altura da linha
+ color altera a cor da fonte
+ background-color altera o fundo
+ padding espaçamento entre o elemento e a borda*/
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+    color: #545454;
+    background-color: white;
+    padding: 5px;
+}
